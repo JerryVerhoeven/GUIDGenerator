@@ -1,3 +1,8 @@
+/*
+ * Copyright (C) 2021 Jerry Verhoeven - All Rights Reserved
+ * You may use, distribute and modify this code under the terms of the MIT license.
+ */
+
 using UnityEngine;
 using UnityEditor;
 
