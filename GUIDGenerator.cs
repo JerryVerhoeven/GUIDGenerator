@@ -8,6 +8,7 @@ public class GUIDGenerator : EditorWindow
     [MenuItem("Tools/GUID Generator...", false, 0)]
     private static void Init()
     {
+        //Create EditorWindow
         GUIDGenerator window = (GUIDGenerator)EditorWindow.GetWindow(typeof(GUIDGenerator));
     }
 
