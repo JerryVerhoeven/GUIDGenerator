@@ -5,7 +5,7 @@ public class GUIDGenerator : EditorWindow
 {
     private string m_GUID = "";
 
-    [MenuItem("Tools/GUID Generator")]
+    [MenuItem("Tools/GUID Generator...", false, 0)]
     private static void Init()
     {
         GUIDGenerator window = (GUIDGenerator)EditorWindow.GetWindow(typeof(GUIDGenerator));
